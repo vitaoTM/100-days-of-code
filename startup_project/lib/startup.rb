@@ -23,6 +23,7 @@ class Startup
     if valid_title?(title) == true
       @employees << Employee.new(employee_name, title)
     end
+
   end
 
   def size
