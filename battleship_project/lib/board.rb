@@ -22,4 +22,5 @@ class Board
   def attack(position)
     @grid.[](position)
     @grid.[]=(position)
+  end
 end
