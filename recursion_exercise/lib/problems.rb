@@ -39,7 +39,6 @@ def lucas_number(n)
   return 2 if n == 0
   return 1 if n == 1
   lucas_number(n-1) + lucas_number(n-2)
-
 end
 
 
@@ -55,7 +54,9 @@ end
 # sum_array([5, 2])         # => 7
 # sum_array([4, 10, -1, 2]) # => 15
 def sum_array(array)
-
+  return 0 if array.empty?
+  array[0] + sum_array(array[1..-1]) # deixa o primeiro elemento do array de fora da recursão para ser diminuido de 1 a cada recursão
+                                     # Sempre somando o primeiro elemento que ficou de fora da recursao para se ter a soma total.
 end
 
 
