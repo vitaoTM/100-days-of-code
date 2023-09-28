@@ -107,5 +107,10 @@ end
 #     2-dimensional array: [['some data']]
 #     3-dimensional array: [[['some data']]]
 def flatten(data)
-
+  return [data] if !data.is_a?(Array)
+  flattened = []
+  data.each do |arr|
+    flattened += flatten(arr)
+  end
+  flattened
 end
