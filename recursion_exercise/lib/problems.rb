@@ -36,6 +36,9 @@ end
 # lucas_number(5)   # =>    11
 # lucas_number(9)   # =>    76
 def lucas_number(n)
+  return 2 if n == 0
+  return 1 if n == 1
+  lucas_number(n-1) + lucas_number(n-2)
 
 end
 
