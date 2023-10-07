@@ -45,7 +45,11 @@ end
 # find_bigrams("the theater is empty", ["cy", "em", "ty", "ea", "oo"])  # => ["em", "ty", "ea"]
 # find_bigrams("to the moon and back", ["ck", "oo", "ha", "at"])        # => ["ck", "oo"]
 def find_bigrams(str, bigrams)
-
+  # arr = []
+  # bigrams.each do |el|
+  #   arr << el if str.split(' ').include?(el)
+  # end
+  bigrams.select { |bigram| str.include?(bigram) }
 end
 
 class Hash
