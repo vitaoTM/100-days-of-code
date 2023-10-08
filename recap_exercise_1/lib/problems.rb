@@ -73,8 +73,6 @@ class Hash
         hash[k] = v if prc.call(k, v)
       end
       hash
-      # prc ||= Hash.new { |k, v| k == v }
-      # prc.call
     end
 end
 
@@ -88,9 +86,16 @@ class String
     # "cats".substrings     # => ["c", "ca", "cat", "cats", "a", "at", "ats", "t", "ts", "s"]
     # "cats".substrings(2)  # => ["ca", "at", "ts"]
     def substrings(length = nil)
-
+      arr = []
+      (0...self.length).each do |start_idx|
+        (start_idx...self.length).each do |end_idx|
+          subs = self[start_idx..end_idx]
+          arr << subs
+        end
+      end
+      return arr if length.nil?
+      return arr.select { |str| str.length == length }
     end
-
 
     # Write a method, String#caesar_cipher, that takes in an a number.
     # The method should return a new string where each char of the original string is shifted
@@ -102,6 +107,13 @@ class String
     # "bootcamp".caesar_cipher(2) #=> "dqqvecor"
     # "zebra".caesar_cipher(4)    #=> "difve"
     def caesar_cipher(num)
-
+      str = ''
+      alphabet = ('a'..'z').to_a
+      self.each_char do |char|
+        start_position = alphabet.index(char)
+        new_position = (start_position + num) % 26
+        str += alphabet[new_position]
+      end
+      str
     end
 end
