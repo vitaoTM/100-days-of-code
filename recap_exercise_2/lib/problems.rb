@@ -10,7 +10,12 @@ end
 # Write a method, most_frequent_bigram, that takes in a string and returns the two adjacent letters that appear the
 # most in the string.
 def most_frequent_bigram(str)
-
+  counts = Hash.new{0}
+  (0...str.length-1).each do |bi|
+    bigram = str[bi..bi+1]
+    counts[bigram] += 1
+  end
+  counts.sort_by { |k, v| v }.last[0]
 end
 
 
