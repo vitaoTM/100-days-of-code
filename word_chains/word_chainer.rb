@@ -47,8 +47,9 @@ class WordChainer
     @current_words = new_current_words
   end
 
-  def build_path
-
+  def build_path(target)
+    path = []
+    current_word = target
 
   end
 
