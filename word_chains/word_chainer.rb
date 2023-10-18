@@ -50,8 +50,15 @@ class WordChainer
   def build_path(target)
     path = []
     current_word = target
-
+    until current_word.nil?
+      path << current_word
+      current_word = @all_seen_words[current_word]
+    end
+    path.reverse
   end
+end
 
-
+if $PROGRAM_NAME == __FILE__
+  # provide file name on command line
+  p WordChainer.new(ARGV.shift).run("duck", "ruby")
 end
