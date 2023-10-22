@@ -31,27 +31,27 @@ class Simon
     add_random_color
     @seq.each do |color|
       p color
-      # sleep 0.75
-      # system('clear')
-      # sleep(0.25)
+      sleep 0.75
+      system('clear')
+      sleep(0.25)
     end
   end
 
   def require_sequence
-    p "Repeat the correct sequence"
-    byebug
+    p "Repeat the correct sequence, EACH COLOR GOES IN A NEW LINE"
+    p "SO Press enter for each color you write"
     @seq.each do |color|
-      user_color = gets.chomp
+      user_color = gets.chomp.downcase
       if color != user_color
-        @game_over == true
+        @game_over = true
         break
       end
     end
   end
 
   def add_random_color
-    # color = rand(0..COLORS.length - 1)
-    @seq << COLORS.shuffle[0]
+    color = rand(0..COLORS.length - 1)
+    @seq << COLORS[color]
 
   end
 
@@ -60,7 +60,7 @@ class Simon
   end
 
   def game_over_message
-    p "Game over"
+    p "Game over, you got up to #{@sequence_length -1} correct color(s)"
   end
 
   def reset_game
