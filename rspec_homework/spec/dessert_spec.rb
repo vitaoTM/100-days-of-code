@@ -57,7 +57,12 @@ describe Dessert do
   end
 
   describe "#serve" do
-    it "contains the titleized version of the chef's name"
+    it "contains the titleized version of the chef's name" do
+      allow(chef).to receive(:titleize).and_return("Chef")
+      allow(dessert).to receive(:chef).and_return(chef)
+
+      expect(dessert.serve).to eq('Chef has made 10 Musses!')
+    end
   end
 
   describe "#make_more" do
