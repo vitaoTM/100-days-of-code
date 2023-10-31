@@ -7,22 +7,22 @@ This repo is a collection of many homework I've done through out [AppAcademy](ht
 Feel free to explore each folder, they may have instructions some times. Other times I got lazy or forgot to add one.
 In the next commits or so I will try to update each project(homework), and add some description (or not)
 
-# advanced methods exercice
-# battleship
-# blocks
-# bootcamp
-# debbuging exe
-# dog
-# enumerables
-# ghost
-# mastermind game
-# monkey paching
-# recap 1
-# recap 2
-# recursion
-# RSpec homework
-# screwdocu
-# Some archived
-# startup
-# sudoku
-# word chains
+# [Advanced Methods Exercice](advanced_methods_exercise/)
+# [Battleship](advanced_methods_solution/)
+# [Blocks](blocks_project/)
+# [Bootcamp](bootcamp_project/)
+# [Debbuging exe](debugging_exercise_2/)
+# [Dog]()
+# [Enumerables]()
+# [Ghost]()
+# [Mastermind Game]()
+# [Monkey Paching]()
+# [Recap 1]()
+# [Recap 2]()
+# [Recursion]()
+# [RSpec Homework]()
+# [Screwdocu]()
+# [Some Archived]()
+# [Startup]()
+# [Sudoku]()
+# [Word Chains]()
