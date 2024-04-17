@@ -8,7 +8,7 @@ Feel free to explore each folder, they may have instructions some times. Other t
 In the next commits or so I will try to update each project(homework), and add some description (or not)
 
 # [Advanced Methods Exercice](advanced_methods_exercise/)
-# [Battleship](advanced_methods_solution/)
+# [Battleship](battleship_project/)
 # [Blocks](blocks_project/)
 # [Bootcamp](bootcamp_project/)
 # [Debbuging exe](debugging_exercise_2/)
