@@ -1,5 +1,7 @@
 # Exercicos
 
-Eles vão estar  listados de acordo com cada dia que eu fiz
+- Eles vão estar listados com o nome de cada exercicio
 
-Cada dia vai ter o link e tambem a descrição do exercicio
+- Cada exercicio terá o link e tambem sua descrição
+
+- Você pode rodar os testes simples com <rspec>, mas para todos os testes tente no proprio site do [codewars](codewars.com)
