@@ -9,7 +9,7 @@ Input -> Output
 "8aaaaa dddd r     " -> "8aaaaaddddr"
 
 
-https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/ruby
+find original: https://www.codewars.com/kata/57eae20f5500ad98e50002c5/train/ruby
 =end
 
 def no_space(str)
