@@ -13,6 +13,6 @@ def solution(string)
   caps = ('A'..'Z').to_a
   arr = []
   string.chars.each do |char|
-    caps.include(char.upcase?) ?
+    # caps.include(char.upcase?) ?
   end
 end
