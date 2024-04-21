@@ -34,7 +34,7 @@ def diagonal(matrix)
   end
   matrix.each_with_index do |vector, idx|
     vector_2 << vector.reverse[idx]
-    idx += 11
+    idx += 1
   end
   if vector_1.sum > vector_2.sum
     "Principal Diagonal win!"

@@ -10,9 +10,13 @@ find original: https://www.codewars.com/kata/5208f99aee097e6552000148/train/ruby
 =end
 
 def solution(string)
-  caps = ('A'..'Z').to_a
-  arr = []
-  string.chars.each do |char|
-    # caps.include(char.upcase?) ?
+  result = ''
+  string.each_char do |char|
+    if char == char.upcase
+      result += ' ' + char
+    else
+      result += char
+    end
   end
+  result
 end
