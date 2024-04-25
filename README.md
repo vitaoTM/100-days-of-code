@@ -10,6 +10,7 @@ In the next commits or so I will try to update each project(homework), and add s
 # [Advanced Methods Exercice](advanced_methods_exercise/)
 # [Battleship](battleship_project/)
 # [Blocks](blocks_project/)
+# [Code Wars Katas](codewars_exercices/)
 # [Bootcamp](bootcamp_project/)
 # [Debbuging exe](debugging_exercise_2/)
 # [Dog]()
