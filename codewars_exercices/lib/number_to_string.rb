@@ -16,3 +16,8 @@ def number_to_string(num)
   num.to_s
   # Convert a Number to a String
 end
+
+# other solution
+def n_to_str(num)
+  str = "#{num}"
+end
