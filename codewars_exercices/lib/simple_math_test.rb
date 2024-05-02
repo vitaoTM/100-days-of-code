@@ -17,9 +17,25 @@ The number will always be an integer, either positive or negative. Note that neg
 number_property(-7)  # ==> [false, false, false]
 number_property(-10) # ==> [false, true,  true]
 
-find origianl:
+find origianl: https://www.codewars.com/kata/5507309481b8bd3b7e001638/train/ruby
 
 =end
+
+def is_prime?(n)
+  return false if n < 2
+  return false if n > 2 && n % 2 == 0
+
+  (2..Math.sqrt(n)).none? { |p| n % p == 0 }
+
+end
+
+def number_property(n)
+  [is_prime?(n), n % 2 == 0, n % 10 == 0]
+end
+
+=begin
+# first attempt
+
 def is_prime?(n)
   return false if n <= 0
   (2...n).each do |e|
@@ -46,3 +62,4 @@ def number_property(n)
   end
   arr
 end
+=end

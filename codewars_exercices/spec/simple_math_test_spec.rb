@@ -6,6 +6,7 @@ describe 'Math' do
     expect(number_property(2)).to eq([true,true,false])
     expect(number_property(120)).to eq([false,true,true])
     expect(number_property(125)).to eq([false,false,false])
+    expect(number_property(228188638535383)).to eq([true,false,false])
   end
 
   it 'is_prime?' do
