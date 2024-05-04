@@ -11,3 +11,11 @@ find original: https://www.codewars.com/kata/52efefcbcdf57161d4000091/train/ruby
 def count_chars(str)
   str.chars.tally
 end
+
+def other_solution(str)
+  hash = Hash.new(0)
+  str.chars.each do |e|
+    hash[e] += 1
+  end
+  hash
+end
