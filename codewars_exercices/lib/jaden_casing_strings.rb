@@ -20,4 +20,8 @@ class String
     end
     str.rstrip
   end
+
+  def other_solution
+    self.split.map!(&:capitalize).join(' ')
+  end
 end

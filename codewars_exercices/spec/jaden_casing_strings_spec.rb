@@ -6,4 +6,9 @@ describe 'Jaden Case' do
     expect(("We need to stop teaching The youth about the past and encourage them to change the future.").to_jaden_case). to eq("We Need To Stop Teaching The Youth About The Past And Encourage Them To Change The Future.")
   end
 
+  it '#other_solution' do
+    expect(("We need to stop teaching The youth about the past and encourage them to change the future.").other_solution). to eq("We Need To Stop Teaching The Youth About The Past And Encourage Them To Change The Future.")
+  end
+
+
 end
