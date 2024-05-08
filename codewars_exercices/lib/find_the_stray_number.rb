@@ -17,3 +17,7 @@ def stray (numbers)
   numbers.sort!
   numbers.count(numbers[0]) > 1 ? numbers[-1] : numbers[0]
 end
+
+def other_solution(n)
+  n.tally.min_by { |e| e.last }.first
+end
