@@ -23,3 +23,7 @@ def dna_to_rna(dna)
     end
   end.join
 end
+
+def other_solution(dna)
+  dna.tr('T', 'U')
+end
