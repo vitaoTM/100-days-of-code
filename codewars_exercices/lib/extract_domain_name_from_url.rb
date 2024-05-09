@@ -8,3 +8,9 @@
 find original:
 
 =end
+
+def domain_name(domain)
+  domain.gsub!(/(http|https):\/\//i, '')
+  domain.gsub!(/www\./i, '')
+  domain.split('.')[0]
+end
