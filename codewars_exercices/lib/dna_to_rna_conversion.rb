@@ -14,6 +14,12 @@ The input string can be of arbitrary length - in particular, it may be empty. Al
   find original: https://www.codewars.com/kata/5556282156230d0e5e000089/train/ruby
 =end
 
-def den_to_rna(dna)
-
+def dna_to_rna(dna)
+  dna.chars.map do |e|
+    if e == 'T'
+      e = 'U'
+    else
+      e
+    end
+  end.join
 end
