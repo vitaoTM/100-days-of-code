@@ -13,11 +13,11 @@
 ## CodeWars is a coding community
 #### PT
   Assim como um Dojo de Karate, onde você pode praticar um padrão de luta ou forma (Kata), Code wars te oferece um jeito similar de praticar suas habilidade de codigo. Lá você pode praticar exercicios de programação chamados Katas. Assim como no Karate, os Katas variam a dificuldade do exercício.
-  Para saber mais sobre, sepre verifique a fonte original [codewars](https://codewars.com)
+  Para saber mais sobre, sepre verifique a fonte original [codewars](https://www.codewars.com/about)
 
 #### EN
  Just like a Karate dojo where you pratice a form or a martial fight patern (kata), CodeWar offers a similar way of practicing your coding skills. There you can practice your coding skills through exercices called Katas.
- To learn more about this please visit the original source [codewars](https://codewars.com)
+ To learn more about this please visit the original source [codewars](https://www.codewars.com/about)
 
 # Exercicos
 
