@@ -1,6 +1,13 @@
-# Code Wars 100 days of code
+<div align="center">
+  <img src="https://www.codewars.com/packs/assets/logo-square-red-big.c74ae0e7.png"
+       alt="Codewars icon" />
+  <h1 style="text-align: right;">
+     100 days of code
+  </h1>
+</div>
 
-### NOtes:
+
+### Notes:
 #### PT
 - Essa pasta contem meu desafio de 100 dias de código (Ainda em andamento)
 - Vou tentar manter organizado caso alguém queira seguir também...
@@ -10,7 +17,7 @@
 - So far I passed 2 weeks streaks. I will keep updating it (and try to make it organized)
 
 
-## CodeWars is a coding community
+## [CodeWars](https://codewars.com/about) is a coding community
 #### PT
   Assim como um Dojo de Karate, onde você pode praticar um padrão de luta ou forma (Kata), Code wars te oferece um jeito similar de praticar suas habilidade de codigo. Lá você pode praticar exercicios de programação chamados Katas. Assim como no Karate, os Katas variam a dificuldade do exercício.
   Para saber mais sobre, sepre verifique a fonte original [codewars](https://www.codewars.com/about)
