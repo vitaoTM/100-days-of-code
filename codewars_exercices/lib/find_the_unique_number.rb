@@ -23,3 +23,9 @@ This is the first kata in series:
     find original: https://www.codewars.com/kata/585d7d5adb20cf33cb000235/train/ruby
 
 =end
+
+def find_uniq(arr)
+  arr.tally.each do |v, k|
+    return v if k == 1
+  end
+end
