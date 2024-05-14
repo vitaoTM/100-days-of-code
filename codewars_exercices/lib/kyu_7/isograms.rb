@@ -10,3 +10,10 @@ Example: (Input --> Output)
 find original: https://www.codewars.com/kata/54ba84be607a92aa900000f1/train/ruby
 
 =end
+
+def isogram(string)
+  string.downcase.chars.tally.each do |_, v|
+    return false if v > 1
+  end
+  true
+end
