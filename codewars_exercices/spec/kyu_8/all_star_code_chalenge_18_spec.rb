@@ -8,4 +8,11 @@ describe 'Simple tests' do
     expect(str_count('s', 'z')).to eq(0)
 
   end
+
+  it '#other_solution' do
+    expect(other_solution('Hello', 'o')).to eq(1)
+    expect(other_solution('Hello', 'l')).to eq(2)
+    expect(other_solution('', 'z')).to eq(0)
+    expect(other_solution('s', 'z')).to eq(0)
+  end
 end
