@@ -20,3 +20,9 @@ end
 find original: https://www.codewars.com/kata/5865918c6b569962950002a1/train/ruby
 
 =end
+
+def str_count(word, letter)
+  return 0 if word.empty?
+  return 0 if !word.include?(letter)
+  word.downcase.chars.tally[letter]
+end
