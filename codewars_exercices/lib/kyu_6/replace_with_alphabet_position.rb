@@ -15,3 +15,15 @@ Should return "20 8 5 19 21 14 19 5 20 19 5 20 19 1 20 20 23 5 12 22 5 15 3 12 1
 find original:
 
 =end
+
+def alphabet_position(string)
+  alpha = {}
+  ('a'..'z').to_a.each_with_index do |v, idx|
+    alpha[v] = idx + 1
+  end
+  arr = []
+  string.downcase.gsub(/[^a-z]/, '').each_char do |char|
+    arr << alpha[char]
+  end
+  arr.join(' ')
+end
