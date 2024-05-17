@@ -6,5 +6,6 @@ find original: https://www.codewars.com/kata/56bc28ad5bdaeb48760009b0/train/ruby
 =end
 
 def remove_char(s)
-
+  s[0], s[-1] = '', ''
+  s
 end
