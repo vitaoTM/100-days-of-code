@@ -20,3 +20,7 @@ def find_needle(haystack)
     return "found the needle at position #{idx}" if v == 'needle'
   end
 end
+
+def other_solution(haystack)
+  "found the needle at position #{haystack.index('needle')}"
+end
