@@ -16,5 +16,7 @@ find original:
 =end
 
 def find_needle(haystack)
-
+  haystack.each_with_index do |v, idx|
+    return "found the needle at position #{idx}" if v == 'needle'
+  end
 end
