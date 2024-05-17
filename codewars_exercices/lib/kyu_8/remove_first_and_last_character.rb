@@ -9,3 +9,7 @@ def remove_char(s)
   s[0], s[-1] = '', ''
   s
 end
+
+def other_solution(str)
+  str[1...-1]
+end
