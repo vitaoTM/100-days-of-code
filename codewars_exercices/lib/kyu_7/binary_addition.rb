@@ -13,5 +13,13 @@ find original: https://www.codewars.com/kata/551f37452ff852b7bd000139/train/ruby
 =end
 
 def add_binary(a,b)
-
+  c= a + b
+  arr = []
+  200.downto(0) do |n|
+    arr << c[n]
+  end
+  while arr[0] == 0
+    arr.delete_at(0)
+  end
+  arr.join('')
 end
