@@ -23,3 +23,7 @@ def add_binary(a,b)
   end
   arr.join('')
 end
+
+def other_solution(a, b)
+  (a+b).to_s(2)
+end
