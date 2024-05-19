@@ -13,3 +13,7 @@ def solution(str, ending)
   return true if ending == ''
   str.chomp(ending) == str ? false : true
 end
+
+def other_solution(str, ending)
+  str.end_with?(ending)
+end
