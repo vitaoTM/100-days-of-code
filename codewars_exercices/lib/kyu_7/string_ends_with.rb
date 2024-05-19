@@ -10,5 +10,6 @@ find original: https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/ruby
 
 =end
 def solution(str, ending)
-
+  return true if ending == ''
+  str.chomp(ending) == str ? false : true
 end
