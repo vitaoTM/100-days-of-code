@@ -16,3 +16,12 @@ findoriginal: https://www.codewars.com/kata/523f5d21c841566fde000009/train/ruby
 def array_diff(a, b)
   a - b
 end
+
+def other_solution(a, b)
+  count = b.length - 1
+  while count >= 0
+    a.delete(b[count])
+    count -= 1
+  end
+  a
+end
