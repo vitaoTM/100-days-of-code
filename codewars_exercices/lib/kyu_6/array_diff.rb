@@ -12,3 +12,7 @@ array_diff([1,2],[1]) == [2]
 findoriginal: https://www.codewars.com/kata/523f5d21c841566fde000009/train/ruby
 
 =end
+
+def array_diff(a, b)
+  a - b
+end
