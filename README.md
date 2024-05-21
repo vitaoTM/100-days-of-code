@@ -34,5 +34,10 @@
 
 - Alguns testes simples estão presentes <rspec>, mas para todos os testes tente no proprio site do [codewars](codewars.com) na fonte do exercicio.
 
+- Os níveis (kyu) funcionam de forma do mais fácil (kyu 8) ate os mais difíceis (kyu 1)
+
+### [kyu 8](codewars_exercices/lib/kyu_8)
+### [kyu 7](codewars_exercices/lib/kyu_7)
+### [kyu 6](codewars_exercices/lib/kyu_6)
 
 <!-- [img](https://www.codewars.com/packs/assets/logo-square-red-big.c74ae0e7.png) -->
