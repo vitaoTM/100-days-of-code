@@ -22,6 +22,20 @@ find original: https://www.codewars.com/kata/54a91a4883a7de5d7800009c/train/ruby
 
 =end
 
-def incrementer_str(str_no)
-
+def increment_string(input)
+  count = input.length - 1
+  return '1' if input.empty?
+  while  count >= 0
+    return "#{input}1" if input[-1].match?(/[a-z]/i)
+    if input[count].match?(/[0-8]/)
+      input[count] = (input[count].to_i + 1).to_s
+      return input
+    elsif input[count].match?('9')
+      input[count] = '0'
+      count -= 1
+    else
+      input[count] = "#{input[count]}1"
+      return input
+    end
+  end
 end
