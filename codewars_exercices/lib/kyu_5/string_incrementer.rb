@@ -39,3 +39,7 @@ def increment_string(input)
     end
   end
 end
+
+def other_solution(input)
+  input.sub(/\d*$/) { |n| n.empty? ? '1' : n.succ }
+end
