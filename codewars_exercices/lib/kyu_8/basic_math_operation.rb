@@ -26,3 +26,7 @@ def basic_opp(operator, v1, v2)
        v1 / v2
   end
 end
+
+def other_solution(op, v1, v2)
+   v1.send(op, v2)
+end
