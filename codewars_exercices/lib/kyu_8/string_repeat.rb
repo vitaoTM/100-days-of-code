@@ -17,3 +17,12 @@ def repeat_str(n, s)
   end
   result
 end
+
+def other_solution(n, s)
+  a = s.dup
+  while n > 1
+    a << s
+    n -= 1
+  end
+  a
+end
