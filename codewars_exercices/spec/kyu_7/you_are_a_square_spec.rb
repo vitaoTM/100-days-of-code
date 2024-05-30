@@ -10,4 +10,13 @@ describe 'Simple tests' do
     expect(is_square 26).to eq(  false)
   end
 
+  it '#other_solution' do
+    expect(other_solution (-1)).to eq(false)
+    expect(other_solution  0).to eq(  true)
+    expect(other_solution  3).to eq(  false)
+    expect(other_solution  4).to eq(   true)
+    expect(other_solution 25).to eq(   true)
+    expect(other_solution 26).to eq(  false)
+  end
+
 end

@@ -22,3 +22,8 @@ def is_square(x)
   return true if (0..x).to_a.include?(Math.sqrt(x))
   false
 end
+
+def other_solution(x)
+  return false if x < 0
+  (x ** 0.5) % 1 == 0
+end
