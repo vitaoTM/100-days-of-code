@@ -36,13 +36,13 @@
 
 - Os níveis (kyu) funcionam de forma do mais fácil (kyu 8) ate os mais difíceis (kyu 1)
 
-### [codesignal](codewars_exercices/lib/codesignal/)
-### [leetcode](codewars_exercices/lib/leetcode/)
-    - Agora considerando outras fontes de exercicios
-
 ### [kyu 5](codewars_exercices/lib/kyu_5)
 ### [kyu 6](codewars_exercices/lib/kyu_6)
 ### [kyu 7](codewars_exercices/lib/kyu_7)
 ### [kyu 8](codewars_exercices/lib/kyu_8)
+
+# Agora considerando outras fontes de exercicios
+### [CODESIGNAL](codewars_exercices/lib/codesignal/)
+### [LEETCODE](codewars_exercices/lib/leetcode/)
 
 <!-- [img](https://www.codewars.com/packs/assets/logo-square-red-big.c74ae0e7.png) -->
