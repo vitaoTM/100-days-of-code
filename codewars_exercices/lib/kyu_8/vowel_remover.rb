@@ -20,3 +20,7 @@ def shortcut(s)
     c.gsub(/[aeiou]/, '')
   end.join('')
 end
+
+def other_solution(string)
+  string.gsub(/[aeiou]/, '')
+end
