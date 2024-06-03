@@ -31,3 +31,7 @@ def row_sum_odd_numbers(n)
     count -= 2
   end.sum
 end
+
+def other_solution(n)
+  n**3
+end
