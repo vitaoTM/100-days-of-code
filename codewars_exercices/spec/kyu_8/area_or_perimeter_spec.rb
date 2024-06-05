@@ -1,4 +1,4 @@
-require 'area_or_perimeter'
+require 'kyu_8/area_or_perimeter'
 
 describe 'Area or Perimeter' do
   it '#area_or_perimeter' do

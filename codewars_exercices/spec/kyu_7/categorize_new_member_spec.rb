@@ -1,4 +1,4 @@
-require "categorize_new_member"
+require "kyu_7/categorize_new_member"
 
 describe 'Simple Tests' do
   it '#open_or_senior' do
