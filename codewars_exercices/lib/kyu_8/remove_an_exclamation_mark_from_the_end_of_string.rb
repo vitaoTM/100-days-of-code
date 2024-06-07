@@ -18,3 +18,7 @@ def remove(s)
   s[-1] = '' if s[-1] == '!'
   s
 end
+
+def remove_2(s)
+  s.chomp('!')
+end
