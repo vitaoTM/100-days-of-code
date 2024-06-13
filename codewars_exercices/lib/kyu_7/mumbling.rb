@@ -15,7 +15,7 @@ find original: https://www.codewars.com/kata/5667e8f4e3f572a8f2000039/train/ruby
 def accum(s)
   count = 1
   arr = []
-  s.downcase.chars.each do |c|
+  s.chars.each do |c|
     arr << c * count
     count += 1
   end
