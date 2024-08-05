@@ -35,9 +35,7 @@ def palindrome_rearrange(str)
   end
   if count_odd > 1
     return false
-  elsif count_even > 0
-    return true
   else
-    false
+    true
   end
 end
