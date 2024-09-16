@@ -12,6 +12,6 @@ find origianl: https://app.codesignal.com/arcade/intro/level-2/bq2XnSr5kbHqpHGJC
 
 =end
 
-def solution(array)
+def make_array_consecutive(array)
   (array.min..array.max).count - array.length
 end
