@@ -1,4 +1,4 @@
-require 'diagonals'
+require 'kyu_7/diagonals'
 
 # frozen_string_literal: true
 

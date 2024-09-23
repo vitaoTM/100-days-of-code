@@ -1,4 +1,4 @@
-require 'complementary_dna'
+require 'kyu_7/complementary_dna'
 
 describe 'DNA' do
   it '#dna_strand' do

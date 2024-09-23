@@ -1,4 +1,4 @@
-require 'extract_domain_name_from_url'
+require 'kyu_5/extract_domain_name_from_url'
 
 describe 'Domain Name' do
   it '#damin_name' do

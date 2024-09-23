@@ -9,7 +9,7 @@
 find original: https://www.codewars.com/kata/5208f99aee097e6552000148/train/ruby
 =end
 
-def solution(string)
+def break_camel_case(string)
   result = ''
   string.each_char do |char|
     if char == char.upcase

@@ -1,4 +1,4 @@
-require 'count_chars_in_string'
+require 'kyu_6/count_chars_in_string'
 
 describe 'Count characters in string' do
   it 'Basic Test' do

@@ -1,4 +1,4 @@
-require 'exes_and_ohs'
+require 'kyu_7/exes_and_ohs'
 
 describe 'Sample tests' do
   it "should pass sample tests" do

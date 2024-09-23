@@ -1,4 +1,4 @@
-require 'dna_to_rna_conversion'
+require 'kyu_8/dna_to_rna_conversion'
 
 describe 'Conversion' do
   it '#dna_to_rna' do

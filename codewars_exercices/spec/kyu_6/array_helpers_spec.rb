@@ -1,4 +1,4 @@
-require 'array_helpers'
+require 'kyu_6/array_helpers'
 
 describe "Array" do
   it 'should pass these tests' do
