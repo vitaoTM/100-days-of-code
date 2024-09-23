@@ -32,6 +32,6 @@ def row_sum_odd_numbers(n)
   end.sum
 end
 
-def other_solution(n)
+def row_sum_odd_num_2(n)
   n**3
 end

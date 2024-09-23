@@ -1,4 +1,4 @@
-require "find_the_unique_number"
+require "kyu_6/find_the_unique_number"
 
 describe 'Unique Number finder in Array' do
   it '#find_uniq' do

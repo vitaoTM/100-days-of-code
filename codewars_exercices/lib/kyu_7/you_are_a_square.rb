@@ -23,7 +23,7 @@ def is_square(x)
   false
 end
 
-def other_solution(x)
+def is_sqr_2(x)
   return false if x < 0
   (x ** 0.5) % 1 == 0
 end

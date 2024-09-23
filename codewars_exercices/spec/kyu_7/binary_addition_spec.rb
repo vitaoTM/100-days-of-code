@@ -11,11 +11,11 @@ describe 'Simple Tests' do
   end
 
   it '#other_solution' do
-    expect(other_solution(1,1)).to eq("10")
-    expect(other_solution(0,1)).to eq("1")
-    expect(other_solution(1,0)).to eq("1")
-    expect(other_solution(2,2)).to eq("100")
-    expect(other_solution(51,12)).to eq("111111")
-    expect(other_solution(8276515614250342056178902050955, 17917996849093333991858817987)).to eq("1101000101100001100001010101100110110101000101000101110100010101111101110000111011100011111010001001110")
+    expect(add_binary_2(1,1)).to eq("10")
+    expect(add_binary_2(0,1)).to eq("1")
+    expect(add_binary_2(1,0)).to eq("1")
+    expect(add_binary_2(2,2)).to eq("100")
+    expect(add_binary_2(51,12)).to eq("111111")
+    expect(add_binary_2(8276515614250342056178902050955, 17917996849093333991858817987)).to eq("1101000101100001100001010101100110110101000101000101110100010101111101110000111011100011111010001001110")
   end
 end

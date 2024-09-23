@@ -11,12 +11,12 @@ describe 'Simple tests' do
   end
 
   it '#other_solution' do
-    expect(other_solution(-1)).to eq(false)
-    expect(other_solution(0)).to eq(true)
-    expect(other_solution(3)).to eq(false)
-    expect(other_solution(4)).to eq(true)
-    expect(other_solution(25)).to eq(true)
-    expect(other_solution(26)).to eq(false)
+    expect(is_sqr_2(-1)).to eq(false)
+    expect(is_sqr_2(0)).to eq(true)
+    expect(is_sqr_2(3)).to eq(false)
+    expect(is_sqr_2(4)).to eq(true)
+    expect(is_sqr_2(25)).to eq(true)
+    expect(is_sqr_2(26)).to eq(false)
   end
 
 end

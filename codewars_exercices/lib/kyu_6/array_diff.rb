@@ -17,7 +17,7 @@ def array_diff(a, b)
   a - b
 end
 
-def other_solution(a, b)
+def array_diff_2(a, b)
   count = b.length - 1
   while count >= 0
     a.delete(b[count])

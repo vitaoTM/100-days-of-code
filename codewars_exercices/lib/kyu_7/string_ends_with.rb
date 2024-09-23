@@ -9,11 +9,11 @@ solution('abc', 'd') // returns false
 find original: https://www.codewars.com/kata/51f2d1cafc9c0f745c00037d/train/ruby
 
 =end
-def solution(str, ending)
+def str_ends_with?(str, ending)
   return true if ending == ''
   str.chomp(ending) == str ? false : true
 end
 
-def other_solution(str, ending)
+def str_end_with_2?(str, ending)
   str.end_with?(ending)
 end

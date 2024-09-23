@@ -11,12 +11,12 @@ describe '#simple tests' do
   end
 
   it '#other_solution' do
-    expect(other_solution([1,2], [1])).to eq([2])
-    expect(other_solution([1,2,2], [1])).to eq([2,2])
-    expect(other_solution([1,2,2], [2])).to eq([1])
-    expect(other_solution([], [1,2])).to eq([])
-    expect(other_solution([1,2,3], [1,2])).to eq([3])
-    expect(other_solution([1,2,2], [])).to eq([1,2,2])
+    expect(array_diff_2([1,2], [1])).to eq([2])
+    expect(array_diff_2([1,2,2], [1])).to eq([2,2])
+    expect(array_diff_2([1,2,2], [2])).to eq([1])
+    expect(array_diff_2([], [1,2])).to eq([])
+    expect(array_diff_2([1,2,3], [1,2])).to eq([3])
+    expect(array_diff_2([1,2,2], [])).to eq([1,2,2])
   end
 
 end

@@ -1,4 +1,4 @@
-require 'highest_and_lowest'
+require 'kyu_7/highest_and_lowest'
 
 describe "Example Tests" do
   it "Test 1" do
