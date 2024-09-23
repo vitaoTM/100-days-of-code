@@ -9,6 +9,6 @@ find original:
 
 =end
 
-def solution(str)
+def reverse_str(str)
   str.reverse
 end

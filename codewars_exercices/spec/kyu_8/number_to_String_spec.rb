@@ -1,4 +1,4 @@
-require 'number_to_string'
+require 'kyu_8/number_to_string'
 
 describe 'number to string' do
   it 'First method' do

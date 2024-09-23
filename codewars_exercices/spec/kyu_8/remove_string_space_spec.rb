@@ -1,4 +1,4 @@
-require 'remove_string_space'
+require 'kyu_8/remove_string_space'
 describe 'Basic test' do
   it 'should pass fixed tests' do
     expect(no_space('8 j 8   mBliB8g  imjB8B8  jl  B')).to eq('8j8mBliB8gimjB8B8jlB')

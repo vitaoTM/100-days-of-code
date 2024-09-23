@@ -12,6 +12,6 @@ find original: https://app.codesignal.com/arcade/intro/level-1/egbueTZRRL5Mm4TXN
 
 =end
 
-def solution(year)
+def century_from_year(year)
   (year / 100.0).ceil
 end

@@ -22,16 +22,17 @@ find original: https://app.codesignal.com/arcade/code-arcade/intro-gates/mZAucMX
 
 =end
 
-def phone_call(min1, min2_10, min11, cents)
+def phone_call(min1, min2_10, min11, s)
   total_min = 0
 
-  return total_min if s < min1
+  return total_min += 0 if s < min1
 
-  total_min += 1 if s > min1
-  s -= min1
-
+  if s > min1
+    total_min += 1
+    s -= min1
+  end
   if s >= min2_10
-    (2..10).each do |m|
+    (2..10).each do |e|
       break if s <= 0
       total_min += 1
       s -= min2_10
@@ -40,7 +41,7 @@ def phone_call(min1, min2_10, min11, cents)
   end
 
   if s >= min11
-    (11..500).each do |m|
+    (11..1000).each do |e|
       break if s <= 0
       total_min += 1
       s -= min11

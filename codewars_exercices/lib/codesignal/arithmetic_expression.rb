@@ -26,10 +26,12 @@ find original: https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/Q
 
 =end
 
-def arithmetic(a, b, c)
-  sum = (a + b == c)
-  subt = (a - b == c)
+def arithmetic_e(a, b, c)
+  summm = (a + b == c)
+  subtraction = (a - b == c)
   div = (a / b.to_f == c)
   mult = (a * b == c)
-  [sum, subt, div, mult].include?(true)
+
+  return [summm, subtraction, mult, div].include?(true)
+
 end

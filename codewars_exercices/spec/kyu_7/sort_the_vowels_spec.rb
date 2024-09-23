@@ -1,4 +1,4 @@
-require 'sort_the_vowels'
+require 'kyu_7/sort_the_vowels'
 
 describe 'Tests' do
   def do_test(input, expected)

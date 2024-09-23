@@ -30,7 +30,7 @@ find original: https://app.codesignal.com/arcade/intro/level-2/xzKiBHjhoinnpdh6m
 
 =end
 
-def solution(array)
+def adjacent_elements_product(array)
   result = []
   array.each_with_index do |e, idx|
     break if array[idx + 1].nil?

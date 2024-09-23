@@ -19,7 +19,7 @@ find original: https://app.codesignal.com/arcade/intro/level-2/2mxbGwLzvkTCKAJMG
 
 =end
 
-def solution(sequence)
+def almost_increasing_sequence(sequence)
   return false if sequence.each_cons(3).count { |a, b, c| a >= c } > 1
   return false if sequence.each_cons(2).count { |a,b| a >= b } > 1
   return true

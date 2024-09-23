@@ -1,4 +1,4 @@
-require 'simple_math_test'
+require 'kyu_7/simple_math_test'
 
 describe 'Math' do
   it '#number_property' do

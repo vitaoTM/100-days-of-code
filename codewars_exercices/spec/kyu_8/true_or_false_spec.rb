@@ -1,4 +1,4 @@
-require 'true_or_false'
+require 'kyu_8/true_or_false'
 
 describe "Fixed tests" do
   it "When bool == true" do

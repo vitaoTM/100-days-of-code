@@ -1,4 +1,4 @@
-require 'sum_arrays'
+require 'kyu_8/sum_arrays'
 
 describe '#sum' do
   it 'tests should pass' do

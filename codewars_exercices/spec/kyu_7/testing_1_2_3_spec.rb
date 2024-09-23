@@ -1,4 +1,4 @@
-require 'testing_1_2_3'
+require 'kyu_7/testing_1_2_3'
 
 describe 'Simple test' do
   it '#numbers' do

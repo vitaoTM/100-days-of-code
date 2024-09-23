@@ -1,4 +1,4 @@
-require 'reversed_sequence'
+require 'kyu_8/reversed_sequence'
 
 describe 'Reverse sequence' do
   it 'should pass thhese tests' do

@@ -1,4 +1,4 @@
-require 'powers_of_two'
+require 'kyu_8/powers_of_two'
 
 describe 'powers of two' do
   it '#power_of_two' do

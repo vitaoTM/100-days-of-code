@@ -40,6 +40,6 @@ def increment_string(input)
   end
 end
 
-def other_solution(input)
+def other_incrementer_string(input)
   input.sub(/\d*$/) { |n| n.empty? ? '1' : n.succ }
 end

@@ -1,4 +1,4 @@
-require 'string_basic'
+require 'kyu_7/string_basic'
 
 describe "Simple tests" do
   it '#get_users_ids' do

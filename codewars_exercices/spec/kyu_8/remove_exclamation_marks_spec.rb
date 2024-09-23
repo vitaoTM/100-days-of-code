@@ -1,4 +1,4 @@
-require 'remove_exclamation_marks'
+require 'kyu_8/remove_exclamation_marks'
 
 describe 'Solution' do
   it '#remove_exclamation' do

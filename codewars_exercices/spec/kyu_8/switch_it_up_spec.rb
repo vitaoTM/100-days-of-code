@@ -1,4 +1,4 @@
-require 'switch_it_up'
+require 'kyu_8/switch_it_up'
 
 describe 'Test' do
   it '#switch_it_up' do

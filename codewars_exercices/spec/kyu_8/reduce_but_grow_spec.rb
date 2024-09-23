@@ -1,4 +1,4 @@
-require 'reduce_but_grow'
+require 'kyu_8/reduce_but_grow'
 # require 'Test'
 
 RSpec.describe 'grow' do

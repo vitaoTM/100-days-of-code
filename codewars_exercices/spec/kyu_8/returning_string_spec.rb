@@ -1,4 +1,4 @@
-require 'returning_string'
+require 'kyu_8/returning_string'
 
 describe "Solution" do
   it '#greet' do

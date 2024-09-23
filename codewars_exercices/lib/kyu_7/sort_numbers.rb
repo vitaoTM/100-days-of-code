@@ -10,7 +10,7 @@ find origianl: https://www.codewars.com/kata/5174a4c0f2769dd8b1000003/train/ruby
 
 =end
 
-def solution(arr)
+def sort_numbers(arr)
   return [] if arr.nil?
   arr.sort
 end
