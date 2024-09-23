@@ -21,6 +21,6 @@ def shortcut(s)
   end.join('')
 end
 
-def other_solution(string)
+def other_shortcut(string)
   string.gsub(/[aeiou]/, '')
 end

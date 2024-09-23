@@ -27,6 +27,6 @@ def basic_opp(operator, v1, v2)
   end
 end
 
-def other_solution(op, v1, v2)
+def other_basic_opp(op, v1, v2)
    v1.send(op, v2)
 end

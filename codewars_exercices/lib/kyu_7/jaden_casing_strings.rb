@@ -21,7 +21,7 @@ class String
     str.rstrip
   end
 
-  def other_solution
+  def to_jaden_case_2
     self.split.map!(&:capitalize).join(' ')
   end
 end

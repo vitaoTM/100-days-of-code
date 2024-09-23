@@ -1,4 +1,4 @@
-require 'convert_string_to_array'
+require 'kyu_8/convert_string_to_array'
 
 describe 'String to Array' do
   it '#str_to_array' do

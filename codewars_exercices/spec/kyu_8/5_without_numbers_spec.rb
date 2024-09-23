@@ -13,7 +13,7 @@ describe 'simple tests' do
 
 
   it '#unusual_five' do
-    return 'error' if unusual_five.parse
+    # return 'error' if unusual_five.parse
     expect(unusual_five).to eq(5)
   end
 

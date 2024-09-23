@@ -20,7 +20,7 @@ def update_light(current)
   end
 end
 
-def other_solution(current)
+def update_light_2(current)
   traffic = {'green'=> 'yellow', 'yellow'=> 'red', 'red'=> 'green'}
   traffic[current]
 end

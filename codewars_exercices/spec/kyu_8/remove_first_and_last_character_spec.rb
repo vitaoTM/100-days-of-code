@@ -9,11 +9,11 @@ describe 'Simple Test' do
     expect(remove_char('ok')).to eq('')
   end
 
-  it '#other_solution' do
-    expect(other_solution('eloquent')).to eq('loquen')
-    expect(other_solution('country')).to eq('ountr')
-    expect(other_solution('person')).to eq('erso')
-    expect(other_solution('place')).to eq('lac')
-    expect(other_solution('ok')).to eq('')
+  it '#other_remove_char' do
+    expect(other_remove_char('eloquent')).to eq('loquen')
+    expect(other_remove_char('country')).to eq('ountr')
+    expect(other_remove_char('person')).to eq('erso')
+    expect(other_remove_char('place')).to eq('lac')
+    expect(other_remove_char('ok')).to eq('')
   end
 end

@@ -8,9 +8,9 @@ describe 'Simple tests' do
   end
 
   it '#other_solution' do
-    expect(other_solution(3, "*")).to eq("***")
-    expect(other_solution(5, "#")).to eq("#####")
-    expect(other_solution(2, "ha ")).to eq("ha ha ")
+    expect(other_repeat_str(3, "*")).to eq("***")
+    expect(other_repeat_str(5, "#")).to eq("#####")
+    expect(other_repeat_str(2, "ha ")).to eq("ha ha ")
   end
 
 end

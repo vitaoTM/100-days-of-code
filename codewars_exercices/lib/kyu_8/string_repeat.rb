@@ -18,7 +18,7 @@ def repeat_str(n, s)
   result
 end
 
-def other_solution(n, s)
+def other_repeat_str(n, s)
   a = s.dup
   while n > 1
     a << s

@@ -1,4 +1,4 @@
-require 'inverse_slice'
+require 'kyu_7/inverse_slice'
 
 describe "Inverse Slicer" do
   it "Basic Tests" do

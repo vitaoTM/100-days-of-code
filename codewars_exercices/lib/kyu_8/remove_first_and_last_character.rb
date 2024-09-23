@@ -10,6 +10,6 @@ def remove_char(s)
   s
 end
 
-def other_solution(str)
+def other_remove_char(str)
   str[1...-1]
 end

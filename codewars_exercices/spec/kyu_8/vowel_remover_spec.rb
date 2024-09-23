@@ -9,10 +9,10 @@ describe 'Simple tests' do
   end
 
   it '#other_solution' do
-    expect(other_solution('hello')).to eq('hll')
-    expect(other_solution('codewars')).to eq('cdwrs')
-    expect(other_solution('goodbye')).to eq('gdby')
-    expect(other_solution('HELLO')).to eq('HELLO')
+    expect(other_shortcut('hello')).to eq('hll')
+    expect(other_shortcut('codewars')).to eq('cdwrs')
+    expect(other_shortcut('goodbye')).to eq('gdby')
+    expect(other_shortcut('HELLO')).to eq('HELLO')
   end
 
 end

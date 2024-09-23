@@ -1,4 +1,4 @@
-require 'highest_scoring_word'
+require 'kyu_6/highest_scoring_word'
 
 describe 'Basic Test' do
   it 'Should pass on these' do

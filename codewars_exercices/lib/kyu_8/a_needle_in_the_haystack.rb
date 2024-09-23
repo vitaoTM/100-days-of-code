@@ -21,6 +21,6 @@ def find_needle(haystack)
   end
 end
 
-def other_solution(haystack)
+def other_find_needle(haystack)
   "found the needle at position #{haystack.index('needle')}"
 end

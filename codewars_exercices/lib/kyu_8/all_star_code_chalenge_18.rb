@@ -27,6 +27,6 @@ def str_count(word, letter)
   word.downcase.chars.tally[letter]
 end
 
-def other_solution(w, l)
+def other_str_count(w, l)
   w.count(l)
 end

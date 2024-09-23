@@ -1,4 +1,4 @@
-require 'jaden_casing_strings'
+require 'kyu_7/jaden_casing_strings'
 
 describe 'Jaden Case' do
   it '#to_jaden_case' do
@@ -7,7 +7,7 @@ describe 'Jaden Case' do
   end
 
   it '#other_solution' do
-    expect(("We need to stop teaching The youth about the past and encourage them to change the future.").other_solution). to eq("We Need To Stop Teaching The Youth About The Past And Encourage Them To Change The Future.")
+    expect(("We need to stop teaching The youth about the past and encourage them to change the future.").to_jaden_case_2). to eq("We Need To Stop Teaching The Youth About The Past And Encourage Them To Change The Future.")
   end
 
 
