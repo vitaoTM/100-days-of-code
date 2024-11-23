@@ -8,7 +8,7 @@ solution(a) = [0, 1, 0, 1, 0].
 
 Check out the image below for better understanding:
 
---- see img at /refs_img
+--- see img at /refs_img/swtch_lights.png
 
 For a = [0, 0], the output should be
 solution(a) = [0, 0].
