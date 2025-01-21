@@ -25,4 +25,8 @@ def rotate_strings(s, goal)
     return true if s == goal
   end
   false
+
+  # Simple method:
+  # return false if s.length != goal.length
+  # (s+s).include?(goal)
 end
