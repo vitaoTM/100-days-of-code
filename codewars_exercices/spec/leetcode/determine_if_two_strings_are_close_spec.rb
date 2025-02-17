@@ -6,6 +6,7 @@ describe 'Simple test' do
     expect(close_strings('a', 'aa')).to eq(false)
     expect(close_strings('cabbba', 'abbccc')).to eq(true)
     expect(close_strings('uau', 'ssx')).to eq(false)
+    expect(close_strings("aaabbbbccddeeeeefffff", "aaaaabbcccdddeeeeffff")).to eq(false)
   end
 
 end
